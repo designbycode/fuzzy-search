@@ -19,11 +19,11 @@ class LevenshteinDistance
     public static function calculate(mixed $str1, mixed $str2): int
     {
 
-        if (!is_string($str1)) {
+        if (! is_string($str1)) {
             throw new TypeError('Argument 1 passed to LevenshteinDistance::calculate() must be of the type string');
         }
 
-        if (!is_string($str2)) {
+        if (! is_string($str2)) {
             throw new TypeError('Argument 2 passed to LevenshteinDistance::calculate() must be of the type string');
         }
 
