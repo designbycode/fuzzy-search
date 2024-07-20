@@ -1,9 +1,13 @@
 {
     "name": "designbycode/fuzzy-search",
-    "description": "This is my package fuzzy-search",
+    "description": "The Fuzzy Search package provides a simple and efficient way to perform fuzzy searches on a collection of texts using the Levenshtein distance algorithm. This package is useful when you need to search for texts that may contain typos or slight variations.",
     "keywords": [
         "Designbycode",
-        "fuzzy-search"
+        "fuzzy-search",
+        "fuzzy search",
+        "search",
+        "levenshtein distance",
+        "levenshtein"
     ],
     "homepage": "https://github.com/designbycode/fuzzy-search",
     "license": "MIT",
@@ -15,7 +19,8 @@
         }
     ],
     "require": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "designbycode/levenshtein-distance": "^1.0"
     },
     "require-dev": {
         "pestphp/pest": "^2.20",

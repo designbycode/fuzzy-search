@@ -2,6 +2,8 @@
 
 namespace Designbycode\FuzzySearch;
 
+use Designbycode\LevenshteinDistance\LevenshteinDistance;
+
 /**
  * Fuzzy search class using Levenshtein distance algorithm
  */
