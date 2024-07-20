@@ -2,6 +2,4 @@
 
 namespace Designbycode\FuzzySearch;
 
-class FuzzySearch
-{
-}
+class FuzzySearch {}
